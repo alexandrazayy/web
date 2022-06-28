@@ -1,0 +1,32 @@
+HTML {
+    background: linear-gradient(180deg, rgba(64, 0, 94, 0.92) 0%, #00BF7A 71.87%);
+    color: white;
+}
+
+.Navbar button{
+    background-image: url("pictures/sun.svg");
+}
+
+.Navbar a {
+    color: white;
+}
+
+.Message {
+    background: linear-gradient(90deg, #FFF500 0%, #88007A 100%);
+}
+.Message p {
+    /*color: black;*/
+
+}
+.Im u {
+    text-decoration-color: black;
+    color: yellow;
+}
+
+.Photo {
+    -webkit-box-shadow: 0 1.3vmin 7px rgba(0, 0, 0, 0.5);
+}
+
+.Hide a {
+    color: #000000;
+}

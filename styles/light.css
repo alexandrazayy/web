@@ -1,0 +1,31 @@
+@import "pictures/sun.svg";
+HTML {
+    background: linear-gradient(180deg, rgba(202, 114, 255, 0.87) 0%, rgba(252, 253, 118, 0.92) 100%) fixed;
+}
+.Navbar button{
+    background-image: url("pictures/moon.svg");
+}
+
+.Navbar a {
+    color: #000000;
+}
+
+.Message {
+    background: linear-gradient(90deg, #FFF500 0%, #88007A 100%);
+}
+.Message p {
+    color: #FFFFFF;
+
+}
+.Im u {
+    text-decoration-color: black;
+    color: yellow;
+}
+
+.Photo {
+    /*-webkit-box-shadow: 0 1.3vmin 7px rgba(0, 0, 0, 0.5);*/
+}
+
+.Hide a {
+    color: #000000;
+}

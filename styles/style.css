@@ -1,0 +1,203 @@
+@import "fonts.css";
+@import "animations.css";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+HTML {
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+}
+
+.Content {
+    box-sizing: border-box;
+}
+
+.Navbar {
+    margin-top: 3vmin;
+    position: sticky;
+    margin-left: 5vmin;
+    margin-right: 5vmin;
+    height: 62px;
+    animation: 3s 1ms appearance;
+}
+
+.Navbar a {
+    position: relative;
+    font-family: 'Cookie';
+    font-style: normal;
+    font-size: 5vmin;
+    margin-right: 13vmin;
+    float: right;
+    text-decoration: none;
+    -webkit-user-drag: none;
+    user-select: none;
+}
+
+.Navbar button{
+    background: none;
+    background-repeat: no-repeat;
+    border: none;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%;
+    float: right;
+    cursor: pointer;
+    margin-right: 5vmin;
+    height: 6vmin;
+    width: 6vmin;
+}
+
+.Navbar .Link:hover {
+    background: rgba(0, 0, 0, .1);
+    text-decoration-line: underline;
+}
+
+/*#Projects {*/
+    /*margin-right: 0;*/
+/*}*/
+
+#Name {
+    line-height: inherit;
+    font-family: 'Copse';
+    font-style: normal;
+    font-size: 5vmin;
+    float: left;
+
+}
+
+.Home {
+    position: absolute;
+    left: 20vmin;
+    top: 12vmin;
+    width: 80%;
+    overflow: hidden;
+    height: 80vmin;
+    max-height: 100%;
+
+}
+
+.Info {
+    animation: 2s 1 slideR;
+    position: relative;
+    top: 5vmin;
+    min-height: 70vmin;
+    min-width: 56vmin;
+    width: 36vmax;
+    max-width: 57vmin;
+    float: left;
+}
+
+.Info p {
+    font-family: 'Actor';
+    font-style: normal;
+}
+
+.Message {
+    position: relative;
+    width: 20vmin;
+    height: 7vmin;
+    border-radius: 5vmin 5vmin 5vmin 0px;
+    text-align: center;
+}
+
+.Message p {
+    line-height: 7vmin;
+    font-size: 5vmin;
+    color: #FFFFFF;
+
+}
+
+.Im p {
+    position: relative;
+    margin-top: 0.5vmin;
+    font-size: 8vmin;
+    line-height: 8vmin;
+    min-width: 20vmin;
+    margin-bottom: 0;
+}
+
+.Description p {
+    position: relative;
+    margin-top: 0;
+    font-size: 2.35vmin;
+    line-height: 3vmin;
+}
+
+.Emojii {
+    position: relative;
+    top: 0.5vmin;
+    height: 7vmin;
+}
+
+.Photo_Block {
+    position: relative;
+    float: right;
+    height: inherit;
+    width: 50%;
+    min-width: 50vmin;
+
+    animation: 2s 1 slideL;
+    pointer-events: none;
+}
+
+
+.Photo {
+    display: block;
+    position: relative;
+    height: 80vmin;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 0 0 15vmax 15vmax;
+    filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+
+}
+
+.Hide {
+    width: 3.83vmin;
+    max-width: inherit;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.Hide:hover {
+    width: 20vmin;
+    transition: 1s;
+}
+
+.Society {
+    position: fixed;
+    left: 3vmin;
+    bottom: 3vmin;
+    max-width: 18.5vmin;
+    min-width: 15vmin;
+
+}
+
+.Hide a {
+    border: 0px solid yellow;
+    line-height: 3.5vmin;
+    max-height: 5vmin;
+    display: block;
+    position: relative;
+    margin: 0;
+    text-decoration: none;
+    -webkit-user-drag: none;
+}
+.Society img {
+    pointer-events: none;
+    width: 3.5vmin;
+}
+
+.Society span {
+    position: relative;
+    font-size: 1.7vmin;
+    left: 0.2vmin;
+    line-height: 0;
+    top: -1vmin;
+    font-family: Actor;
+}
+
